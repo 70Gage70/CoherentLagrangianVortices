@@ -24,7 +24,7 @@ winget install julia -s msstore
 
 ### 2. 
 
-Download this repository as either a zipped folder, or by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it and `cd` to that folder.
+Download this repository as either a [zipped folder](https://github.com/70Gage70/CoherentLagrangianVortices/archive/refs/heads/master.zip), or by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it and `cd` to that folder.
 
 ### 3.
 
