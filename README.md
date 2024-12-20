@@ -2,7 +2,7 @@
 
 ## Background
 
-A script for computing *coherent Lagrangian vortex* (CLV) boundaries from flows defined on curved surfaces in arbitrary coordinates.  It uses geodesic vortex detection[^1] as implemented in the Julia package [CoherentStructures.jl](https://github.com/CoherentStructures/CoherentStructures.jl), a software tool for automated CLV detection based on line-field theory[^2] [^3].  The script `clv.jl` allows one to define the metric consistent with coordinate representation of the velocity field data input.  It also fixes some issues with interpolations as originally implemented in the original [CoherentStructures.jl](https://github.com/CoherentStructures/CoherentStructures.jl).  The input and output formats can be modified.  While the data included for testing pertain to stratospheric flow, the surfaces on which flow is defined can include coastlines.
+A script for computing *coherent Lagrangian vortex* (CLV) boundaries from flows defined on curved surfaces in arbitrary coordinates.  It uses geodesic vortex detection[^1] as implemented in the Julia package [CoherentStructures.jl](https://github.com/CoherentStructures/CoherentStructures.jl), a software tool for automated CLV detection based on line-field theory[^2] [^3].  The script `clv.jl` allows one to define the metric consistent with coordinate representation of the velocity field data input.  It also fixes some issues with interpolations as originally implemented in [CoherentStructures.jl](https://github.com/CoherentStructures/CoherentStructures.jl). While the data included for testing pertain to stratospheric flow, the surfaces on which flow is defined can include coastlines.
 
 ## Usage
 
@@ -44,7 +44,7 @@ This should take roughly 1 minute and generate `output.png` showing the location
 
 ### Customization
 
-The data can be output to `.mat` by commenting out the indicated sections of `clv.jl`. To use custom data, modify the `fileIn` variable to the name of your file.
+The data can be output to `.mat` by commenting out the indicated sections of `clv.jl`. To use custom data, modify the `fileIn` variable to the name of your file. Refer to `ERA5-600K-May.nc` for an example of the expected input format.
 
 ## License
 
